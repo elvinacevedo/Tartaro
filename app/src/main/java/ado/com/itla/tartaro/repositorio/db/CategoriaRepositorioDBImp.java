@@ -4,6 +4,10 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+import java.util.List;
+
+import ado.com.itla.tartaro.entidad.categoria;
+
 import ado.com.itla.tartaro.entidad.categoria;
 import ado.com.itla.tartaro.repositorio.CategoriaRepositorio;
 
@@ -43,7 +47,7 @@ public class CategoriaRepositorioDBImp implements CategoriaRepositorio {
     }
 
     @Override
-    public List<Categoria> buscar(String buscar) {
+    public List<categoria> buscar(String buscar) {
         return null;
     }
 }
