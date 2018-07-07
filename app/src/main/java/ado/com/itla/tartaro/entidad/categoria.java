@@ -4,6 +4,15 @@ public class categoria {
     private Integer id;
     private String nombre;
 
+    public categoria(int id, String nombre){
+        this.id = id;
+        this.nombre = nombre;
+    }
+
+    public categoria(){
+
+    }
+
     public Integer getId() {
         return id;
     }
