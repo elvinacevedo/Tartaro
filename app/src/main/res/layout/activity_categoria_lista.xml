@@ -11,6 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        tools:layout_editor_absoluteY="8dp"
+        android:divider="#f00"
+        android:dividerHeight="1dp"
+        android:listSelector="#0f0"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true"
+        android:cacheColorHint="@color/colorPrimary"/>/>
 
 </LinearLayout>
